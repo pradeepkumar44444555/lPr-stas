@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-bs-theme="dark">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Update the 'content' attribute to reflect the actual content description -->
+    <meta name="description" content="your_description_goes_here">
+
+    <!-- Modify the 'content' attribute to include appropriate keywords -->
+    <meta name="keywords" content="your_keywords_goes_here">
+
+    <meta name="author" content="tigmatemplate">
+    <meta name="generator" content="Bootstrap">
+
+    <!-- Change the text within the <title> tag to match the webpage's content -->
+    <title> PRESTAMOS INSTANTANE </title>
+
+    <!-- 
+        Set the website's favicon and Apple touch icon using the files in the assets/logo folder. You can change these files to your own icons by replacing them with the same names and sizes.
+
+        Be careful if you change the site.webmanifest file, as you need to update the src attribute of the icons array to match the new path of your icon files. Otherwise, your icons may not display correctly on some devices. 
+    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico">
+    <link rel="manifest" href="./assets/logo/site.webmanifest">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./assets/libraries/glide/css/glide.core.min.css">
+    <link rel="stylesheet" href="./assets/libraries/aos/aos.css">
+    <link rel="stylesheet" href="./assets/css/main.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <!-- Update the 'title' and 'description' content below to enhance social sharing -->
+    <meta property="og:title" content="your_title_goes_here">
+    <meta property="og:description" content="your_description_goes_here">
+    <!-- Update with actual absolute image URL like: https://example.com/main.jpg -->
+    <meta property="og:image" content="your_absolute_image_url_goes_here">
+    <!-- Update with the absolute URL of the content like: https://example.com/index.html -->
+    <meta property="og:url" content="your_absolute_content_url_goes_here">
+    <!-- Update with the type of object you’re sharing. (e.g., article, website, etc.) -->
+    <meta property="og:type" content="website">
+    <!-- Defines the content language -->
+    <meta property="og:locale" content="en_US">
+
+    
+    <!-- X/Twitter Card Meta Tags for Social Sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Update with your X/Twitter handle -->
+    <meta name="twitter:site" content="@yourtwitterhandle"> 
+    <!-- Update the 'title' and 'description' content below to enhance social sharing -->
+    <meta name="twitter:title" content="your_title_goes_here"> 
+    <meta name="twitter:description" content="your_description_goes_here">
+    <!-- Update with actual absolute image URL like: https://example.com/main.jpg -->
+    <meta name="twitter:image" content="your_absolute_image_url_goes_here"> 
+    
+    <!-- 
+        The following line specifies the canonical URL for this page.
+        Replace your_canonical_url_goes_here with the actual canonical URL if needed like: https://example.com/index.html
+        Or just remove it!!!!
+    -->
+    <link rel="canonical" href="your_canonical_url_goes_here">
+
+</head>
+<body>
+
+
+    <!-- loader-wrapper -->
+    <div class="loader-wrapper">
+        <div class="spinner-grow text-primary p-5" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+
+    <!-- header top -->
+    <div class="navigation position-absolute w-100 rounded-bottom-3 rounded-bottom-sm-4">
+        <nav class="navbar navbar-expand-xl px-2" aria-label="Offcanvas navbar large">
+            <div class="container px-3 py-2">
+                <a class="navbar-brand p-1" href="./index.html">
+                    <!-- <img src="./assets/logo/logo.png" height="32" alt="logo"> -->
+                    <strong class="text-body-emphasis fw-bolder fst-italic"> PRESTAMOS INSTANTANE </strong>
+                </a>
+
+
+                <div class="offcanvas offcanvas-bottom rounded-top-5 h-auto" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header px-4 pt-4 pb-4">
+                        <h5 class="offcanvas-title m-0" id="offcanvasNavbar2Label">
+                            <a class="navbar-brand px-2 py-1" href="javascript:;">
+                                <!-- <img src="./assets/logo/logo.png" height="32" alt="logo"> -->
+                                <strong class="text-body-emphasis fw-bolder fst-italic"> PRESTAMOS INSTANTANE </strong>
+                            </a>
+                        </h5>
+                        <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav align-items-xl-center justify-content-center flex-grow-1 column-gap-4 row-gap-4">
+                            <li class="nav-item ms-xl-auto" data-bs-dismiss="offcanvas">
+                                <a href="javascript:;" onclick="scrollToSection('#home')"
+                                    class="nav-link rounded-3 px-3 text-base fw-semibold leading-6 text-body-emphasis bg-body-secondary-hover">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a href="javascript:;" onclick="scrollToSection('#services')"
+                                    class="nav-link rounded-3 px-3 text-base fw-semibold leading-6 text-body-emphasis bg-body-secondary-hover">
+                                    Partner
+                                </a>
+                            </li>
+
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a href="javascript:;" onclick="scrollToSection('#faqs')"
+                                    class="nav-link rounded-3 px-3 text-base fw-semibold leading-6 text-body-emphasis bg-body-secondary-hover">
+                                    FAQs
+                                </a>
+                            </li>
+
+                            <li class="nav-item ms-xl-auto" data-bs-dismiss="offcanvas">
+                                <a href="portfolio-rtl.html"
+                                    class="btn btn-primary text-white btn-lg rounded-3 px-3 text-base fw-semibold leading-6 w-100">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Hero -->
+    <div id="home" class="d-flex align-items-center position-relative">
+        <div class="container">
+            <div class="py-8 py-md-9 py-xl-11">
+                <div class="row gy-5 align-items-center justify-content-between">
+                    <div class="col-12 col-xl-6 text-center text-xl-start order-xl-last">
+                        <div class="max-w-2xl mx-auto mx-xl-0 py-5 py-xl-0">
+                            <span class="badge border text-body-emphasis d-inline-flex align-items-center justify-content-between gap-2 rounded-pill fw-medium bg-body-tertiary">
+                                <svg class="text-success" viewBox="0 0 6 6" aria-hidden="true" fill="currentColor" width="0.375rem" height="0.375rem">
+                                    <circle cx="3" cy="3" r="3"></circle>
+                                </svg>
+                                Available for loan!
+                            </span>
+
+                            <h1 class="m-0 mt-4 text-body-emphasis fw-bold tracking-tight text-6xl" data-aos-delay="0" data-aos="fade" data-aos-duration="1000">
+                                Easy up-to-date comparisons of loans so you make informed financial decisions.
+                            </h1>
+                            <p class="m-0 mt-4 text-lg leading-8 text-body-secondary" data-aos-delay="100" data-aos="fade" data-aos-duration="1000">
+                                The Prestamos Instantane app is here to make sure that you make informed decisions about personal loans!💰
+                            </p>
+                            <div class="mt-4 pt-3" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                                <a href="portfolio-rtl.html" class="btn btn-lg btn-primary text-white text-sm fw-semibold">
+                                    Contact me
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-5" data-aos-delay="0" data-aos="fade" data-aos-duration="1000">
+                        <div class="max-w-2xl mx-auto mx-xl-0">
+                            <div class="ratio" style="--bs-aspect-ratio: 76.66%;">
+                                <img src="./assets/img/bg/bg1.jpg" class="img-fluid object-fit-cover rounded-3 rounded-sm-4 rounded-xl-5" alt="Poeple talking">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container pb-6">
+        <h2 class="text-center text-lg fw-semibold leading-8 text-body-emphasis m-0 mb-5">
+            Trusted Bank of Spain
+        </h2>
+
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 justify-content-center g-4">
+            <div>
+                <div>
+                    <img src="assets/img/logos partner/logo-w.svg" alt="Логотип партнера" class="img-fluid">
+                </div>
+                
+            </div>
+
+            <div>
+                <div>
+                    <img src="assets/img/logos partner/logo_bbva_blanco.svg" alt="Логотип партнера" class="img-fluid">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="assets/img/logos partner/logo-2x.png" alt="Логотип партнера" class="img-fluid">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="assets/img/logos partner/logo-sin-cierre-sin-fondo.png" alt="Логотип партнера" class="img-fluid">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="assets/img/logos partner/logo-deutsche-bank-ES.svg" alt="Логотип партнера" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+
+    <!-- services -->
+    <div id="services" class="overflow-hidden py-7 py-sm-8 py-xl-9">
+        <div class="container">
+            <div>
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="m-0 text-primary-emphasis text-base leading-7 fw-semibold">
+                        Partner
+                    </h2>
+                    <!-- <p class="m-0 mt-4 text-body text-lg leading-8">
+                        Trasted partner 
+                    </p> -->
+                </div>
+            </div>
+            <div>
+                <div class="row row-cols-1 row-cols-xl-3 gy-5 gx-xl-4 mt-1 justify-content-center justify-content-xl-between">
+                    <div class="col pt-5 pt-xl-4">
+                        <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="0" data-aos="fade" data-aos-duration="1000">
+                            <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                <img src="./assets/img/bg/bg6.png" class="object-fit-cover rounded-3 rounded-sm-4 rounded-xl-5" alt="Service image" loading="lazy">
+                            </div>
+
+                            <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
+                                Banco Santander
+                            </h3>
+
+                            <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                            <p class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                                Ofrece préstamos personales para diferentes necesidades como reformas, 
+compra de coches, viajes o estudios. El importe máximo suele alcanzar los 60,000 euros, 
+con un plazo de devolución de hasta 8 años y un interés competitivo. 
+Además, el proceso puede gestionarse de manera online para mayor comodidad.
+                            </p>
+                            <div class="mt-4 pt-3" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                                <a href="https://www.bancosantander.es/particulares" target="_blank" class="btn btn-lg btn-primary text-white text-sm fw-semibold">
+                                    Look offer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col pt-5 pt-xl-4">
+                        <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="100" data-aos="fade" data-aos-duration="1000">
+                            <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                <img src="./assets/img/bg/bg7.png" class="object-fit-cover rounded-3 rounded-sm-4 rounded-xl-5" alt="Service image" loading="lazy">
+                            </div>
+
+                            <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
+                                BBVA
+                            </h3>
+
+                            <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                            <p class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                                Dispone de préstamos personales para proyectos variados, 
+con un máximo de 75,000 euros a devolver en plazos de hasta 
+10 años. Su TIN puede variar dependiendo del perfil del 
+cliente y el destino del préstamo. BBVA ofrece la posibilidad 
+de simular el préstamo antes de solicitarlo para conocer 
+las cuotas aproximadas.
+                            </p>
+                            <div class="mt-4 pt-3" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                                <a href="https://www.bbva.es/personas.html" target="_blank" class="btn btn-lg btn-primary text-white text-sm fw-semibold">
+                                    Look offer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pt-5 pt-xl-4">
+                        <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                            <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                <img src="./assets/img/bg/bg8.jpg" class="object-fit-cover rounded-3 rounded-sm-4 rounded-xl-5" alt="Service image" loading="lazy">
+                            </div>
+
+                            <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
+                                Abanca
+                            </h3>
+
+                            <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                            <p class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                                Proporciona préstamos personales con un 
+límite de 60,000 euros y un plazo de 
+devolución de hasta 8 años. Es conocido 
+por su agilidad en la gestión de solicitudes 
+y la posibilidad de acceder a sus productos 
+de forma digital.
+                            </p>
+                            <div class="mt-4 pt-3" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                                <a href="https://www.abanca.com/es/" target="_blank" class="btn btn-lg btn-primary text-white text-sm fw-semibold">
+                                    Look offer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col pt-5 pt-xl-4">
+                        <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                            <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                <img src="./assets/img/bg/42ilufas69832.jpg" class="object-fit-cover rounded-3 rounded-sm-4 rounded-xl-5" alt="Service image" loading="lazy">
+                            </div>
+
+                            <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
+                                CaixaBank
+                            </h3>
+
+                            <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                            <p class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                                Ofrece diversas opciones de préstamos, como 
+el Préstamo Personal con un máximo de 60,000 euros, 
+a devolver en cómodas cuotas adaptadas al perfil del cliente. 
+También cuenta con un Préstamo Anticipo Nómina y uno 
+específico para la compra de vehículos, ambos con plazos flexibles para devolución
+                            </p>
+                            <div class="mt-4 pt-3" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                                <a href="https://www.caixabank.es/" target="_blank" class="btn btn-lg btn-primary text-white text-sm fw-semibold">
+                                    Look offer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col pt-5 pt-xl-4">
+                        <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                            <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                <img src="./assets/img/bg/entidades-financieras-bankinter.svg" class="object-fit-cover rounded-3 rounded-sm-4 rounded-xl-5" alt="Service image" loading="lazy">
+                            </div>
+
+                            <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
+                                Bankinter
+                            </h3>
+
+                            <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                            <p class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                                Proporciona préstamos personales con un interés desde el 4.95% TIN. 
+Los importes varían según el perfil, pero pueden 
+llegar a los 60,000 euros con plazos de hasta 8 años. 
+Se caracterizan por su transparencia y la posibilidad de 
+realizar gestiones de forma online.
+                            </p>
+                            <div class="mt-4 pt-3" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                                <a href="https://www.bankinter.com/" target="_blank" class="btn btn-lg btn-primary text-white text-sm fw-semibold">
+                                    Look offer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col pt-5 pt-xl-4">
+                        <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                            <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                <img src="./assets/img/bg/mbServiceInfo_logo1.jpg" class="object-fit-cover rounded-3 rounded-sm-4 rounded-xl-5" alt="Service image" loading="lazy">
+                            </div>
+
+                            <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
+                                Openbank
+                            </h3>
+
+                            <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                            <p class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                                Banco digital del Grupo Santander, 
+ofrece préstamos personales desde 
+3,000 hasta 60,000 euros, con la 
+ventaja de realizar toda la gestión 
+online y sin comisiones de apertura. 
+Los plazos de devolución son flexibles, 
+hasta 7 años, y la aprobación es rápida 
+para los clientes que ya operan con la 
+entidad.
+                            </p>
+                            <div class="mt-4 pt-3" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                                <a href="https://www.openbank.es/" target="_blank" class="btn btn-lg btn-primary text-white text-sm fw-semibold">
+                                    Look offer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>  
+
+
+    <!-- Testimonials -->
+    <div class="overflow-hidden py-7 py-sm-8 py-xl-9 bg-body-tertiary">
+        <div class="container">
+            <div class="glide glideLowGap">
+                <div class="max-w-2xl mb-5">
+                    <h2 class="m-0 text-primary-emphasis text-base leading-7 fw-semibold">
+                        Satisfied Clients Speak Out
+                    </h2>
+                    <div class="m-0 mt-2 text-body-emphasis text-4xl tracking-tight fw-bold">
+                        Real stories from real customers.
+                    </div>
+                </div>
+
+                <div class="position-lg-absolute top-0 end-0">
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left btn text-body-emphasis p-0 rounded-circle rtl-flip" data-glide-dir="<">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/> </svg>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right btn text-body-emphasis p-0 rounded-circle rtl-flip" data-glide-dir=">">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/> </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide h-auto">
+                            <div class="h-100 py-5">
+                                <div class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm">
+                                    <div class="text-body-emphasis">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="ms-n2 bi bi-quote rtl-flip" viewBox="0 0 16 16"> <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/> </svg>
+                                    </div>
+
+                                    <p class="text-body text-base leading-7 my-4">
+                                        I had a great experience with this bank when I applied for a personal loan. The process was quick and hassle-free, and the customer service team was extremely helpful in explaining everything to me. The interest rates were competitive, and I felt confident in my decision to go with them. Would highly recommend this bank for anyone looking for a loan!
+                                    </p>
+
+                                    <div class="d-flex align-items-center column-gap-3 mt-auto">
+                                        <img src="./assets/img/small-team/st1.jpg" height="40" width="40" class="img-fluid rounded-circle" alt="this is an image" loading="lazy">
+
+                                        <div class="d-flex flex-wrap align-items-center text-sm">
+                                            <div class="text-body-secondary fw-semibold">Kade Castillo</div>
+                                            <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="mx-2 text-body-secondary" fill="currentColor">
+                                                <circle cx="1" cy="1" r="1" />
+                                            </svg>
+                                            <div class="text-body-tertiary">CTO, The Wealth Inc.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide h-auto">
+                            <div class="h-100 py-5">
+                                <div class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm">
+                                    <div class="text-body-emphasis">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="ms-n2 bi bi-quote rtl-flip" viewBox="0 0 16 16"> <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/> </svg>
+                                    </div>
+
+                                    <p class="text-body text-base leading-7 my-4">
+                                        I was nervous about taking out a loan, but the staff at the bank made everything so easy and transparent. They walked me through all the options and helped me choose the best one for my situation. The approval was fast, and I received the funds sooner than I expected. I’m really happy with how everything turned out!
+                                    </p>
+
+                                    <div class="d-flex align-items-center column-gap-3 mt-auto">
+                                        <img src="./assets/img/small-team/st2.jpg" height="40" width="40" class="img-fluid rounded-circle" alt="this is an image" loading="lazy">
+
+                                        <div class="d-flex flex-wrap align-items-center text-sm">
+                                            <div class="text-body-secondary fw-semibold">Kade Castillo</div>
+                                            <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="mx-2 text-body-secondary" fill="currentColor">
+                                                <circle cx="1" cy="1" r="1" />
+                                            </svg>
+                                            <div class="text-body-tertiary">CTO, The Wealth Inc.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide h-auto">
+                            <div class="h-100 py-5">
+                                <div class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm">
+                                    <div class="text-body-emphasis">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="ms-n2 bi bi-quote rtl-flip" viewBox="0 0 16 16"> <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/> </svg>
+                                    </div>
+
+                                    <p class="text-body text-base leading-7 my-4">
+                                        This was my first time getting a loan, and I couldn’t be more pleased with the experience. The bank’s team was professional and always available to answer my questions. The terms were clear, and I appreciated how straightforward the whole process was. I’ll definitely be using this bank for any future financial needs!
+                                    </p>
+
+                                    <div class="d-flex align-items-center column-gap-3 mt-auto">
+                                        <img src="./assets/img/small-team/st3.jpg" height="40" width="40" class="img-fluid rounded-circle" alt="this is an image" loading="lazy">
+
+                                        <div class="d-flex flex-wrap align-items-center text-sm">
+                                            <div class="text-body-secondary fw-semibold">Kade Castillo</div>
+                                            <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="mx-2 text-body-secondary" fill="currentColor">
+                                                <circle cx="1" cy="1" r="1" />
+                                            </svg>
+                                            <div class="text-body-tertiary">CTO, The Wealth Inc.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide h-auto">
+                            <div class="h-100 py-5">
+                                <div class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm">
+                                    <div class="text-body-emphasis">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="ms-n2 bi bi-quote rtl-flip" viewBox="0 0 16 16"> <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/> </svg>
+                                    </div>
+
+                                    <p class="text-body text-base leading-7 my-4">
+                                        I’ve dealt with a few banks in the past, but this was by far the best experience I’ve had with a loan. From the application to receiving the funds, everything went smoothly. The staff were friendly, the rates were fair, and the service was exceptional. I’m really satisfied and would recommend this bank to friends and family!
+                                    </p>
+
+                                    <div class="d-flex align-items-center column-gap-3 mt-auto">
+                                        <img src="./assets/img/small-team/st4.jpg" height="40" width="40" class="img-fluid rounded-circle" alt="this is an image" loading="lazy">
+
+                                        <div class="d-flex flex-wrap align-items-center text-sm">
+                                            <div class="text-body-secondary fw-semibold">Kade Castillo</div>
+                                            <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="mx-2 text-body-secondary" fill="currentColor">
+                                                <circle cx="1" cy="1" r="1" />
+                                            </svg>
+                                            <div class="text-body-tertiary">CTO, The Wealth Inc.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FAQs -->
+    <div id="faqs" class="overflow-hidden py-7 py-sm-8 py-xl-9">
+        <div class="container">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="m-0 mb-4 text-body-emphasis tracking-tight leading-10 text-2xl fw-bold">
+                    Information about the bank
+                </h2>
+
+                <div class="accordion accordion-flush pt-2" id="accordionFlushExample2">
+                    <div class="accordion-item pb-4" style="border-top: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Banco Santander
+                            </button>
+                        </h3>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Ofrece préstamos personales para diferentes necesidades como reformas, 
+compra de coches, viajes o estudios. El importe máximo suele alcanzar los 60,000 euros, 
+con un plazo de devolución de hasta 8 años y un interés competitivo. 
+Además, el proceso puede gestionarse de manera online para mayor comodidad.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                BBVA
+                            </button>
+                        </h3>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Dispone de préstamos personales para proyectos variados, 
+con un máximo de 75,000 euros a devolver en plazos de hasta 
+10 años. Su TIN puede variar dependiendo del perfil del 
+cliente y el destino del préstamo. BBVA ofrece la posibilidad 
+de simular el préstamo antes de solicitarlo para conocer 
+las cuotas aproximadas.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                CaixaBank
+                            </button>
+                        </h3>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Ofrece diversas opciones de préstamos, como 
+el Préstamo Personal con un máximo de 60,000 euros, 
+a devolver en cómodas cuotas adaptadas al perfil del cliente. 
+También cuenta con un Préstamo Anticipo Nómina y uno 
+específico para la compra de vehículos, ambos con plazos flexibles para devolución
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Bankinter
+                            </button>
+                        </h3>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Proporciona préstamos personales con un interés desde el 4.95% TIN. 
+Los importes varían según el perfil, pero pueden 
+llegar a los 60,000 euros con plazos de hasta 8 años. 
+Se caracterizan por su transparencia y la posibilidad de 
+realizar gestiones de forma online.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                ING Direct
+                            </button>
+                        </h3>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Con su Préstamo Naranja, ING ofrece hasta 60,000 
+euros sin comisiones de apertura ni estudio, 
+y permite devolver el préstamo en un máximo de 7 años. 
+La contratación es sencilla a través de su plataforma 
+online y está disponible para clientes que tengan 
+nómina con ING.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Banco Sabadell
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Su préstamo personal cubre hasta 60,000 euros, 
+con plazos de devolución de hasta 8 años. 
+La oferta es flexible y ajustable a las 
+necesidades del cliente, ideal para proyectos 
+como reformas o la compra de un coche.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                Unicaja Banco
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Ofrece préstamos personales de hasta 60,000 
+euros con un interés competitivo y 
+plazos de devolución de hasta 8 años. 
+Los clientes pueden gestionar su solicitud 
+en las sucursales o a través de su banca online.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseEight">
+                                Cajamar Caja Rural
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Su préstamo personal permite financiar hasta 60,000 
+euros para cualquier proyecto personal, con 
+plazos de hasta 8 años. Cajamar se enfoca en 
+ofrecer soluciones rápidas y adaptadas a cada 
+perfil de cliente.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseNine">
+                                Kutxabank
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Destaca por sus préstamos personales orientados a 
+proyectos específicos como reformas, con importes
+máximos de 60,000 euros y plazos de devolución de 
+hasta 7 años. Ofrece una simulación online para 
+conocer el detalle de las cuotas.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Abanca
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Proporciona préstamos personales con un 
+límite de 60,000 euros y un plazo de 
+devolución de hasta 8 años. Es conocido 
+por su agilidad en la gestión de solicitudes 
+y la posibilidad de acceder a sus productos 
+de forma digital.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Ibercaja Banco
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Ofrece financiación personalizada para cubrir 
+proyectos como viajes, reformas o la compra 
+de vehículos, con importes de hasta 60,000 
+euros y un plazo de hasta 8 años.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Deutsche Bank Spain
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Con un enfoque en clientes de alto 
+perfil, ofrece préstamos con importes 
+elevados y condiciones competitivas, 
+adaptándose a la capacidad de pago de 
+cada cliente.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item pb-4">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Openbank
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base">
+                                Banco digital del Grupo Santander, 
+ofrece préstamos personales desde 
+3,000 hasta 60,000 euros, con la 
+ventaja de realizar toda la gestión 
+online y sin comisiones de apertura. 
+Los plazos de devolución son flexibles, 
+hasta 7 años, y la aprobación es rápida 
+para los clientes que ya operan con la 
+entidad.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <hr class="my-2 text-body-emphasis opacity-10">
+    </div>
+
+
+    <footer class="container py-4">
+        <div class="d-flex flex-column flex-md-row gap-4 justify-content-md-between align-items-md-center">
+            <p class="text-body-tertiary text-xs leading-5 mb-0">
+                © 
+                <span class="current-year"></span>
+                PRESTAMOS INSTANTANE, Inc. All rights reserved.
+            </p>
+
+            
+        </div>
+    </footer>
+
+
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-primary btn-back-to-top rounded-circle justify-content-center align-items-center p-2 text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/> </svg>
+    </button>
+
+
+	
+	<!-- Bootstrap JavaScript: Bundle with Popper -->
+	<script src="./assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libraries/glide/glide.min.js"></script>
+	<script src="./assets/libraries/aos/aos.js"></script>
+	<script src="./assets/js/scripts.js"></script>
+
+
+</body>
+</html>
